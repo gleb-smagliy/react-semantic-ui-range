@@ -2,7 +2,7 @@
   "name": "react-semantic-ui-range",
   "version": "0.6.1",
   "description": "A react component that is built on semantic-ui-range",
-  "main": "build/index.js",
+  "main": "./index.js",
   "scripts": {
     "build": "babel lib -d build",
     "build:watch": "babel lib -w -d build",
@@ -32,6 +32,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "eslint-watch": "^3.1.3",
+    "lodash": "^4.17.10",
     "polished": "^1.9.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
